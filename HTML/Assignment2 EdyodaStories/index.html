@@ -1,0 +1,368 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Edyoda Srtories</title>
+        <link
+        rel="icon"
+        href="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQFya35VHOD_J69qThT4PeIRMwQHuGN-ca3-w&usqp=CAU"
+       />
+       <link rel="stylesheet" 
+       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css" 
+       integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A==" 
+       crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+      <link rel="preconnect" href="https://fonts.googleapis.com" />
+      <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+      <link
+      href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,400;0,600;0,900;1,300&display=swap"
+      rel="stylesheet"
+    />
+<style>
+     * {
+        padding: 0;
+        margin: 0;
+        box-sizing: border-box;
+        font-family: "Raleway", sans-serif;
+            }
+ body{
+            background-color: #f2f6ff;
+        }
+.baseline{
+            padding: 4px;
+            background-color: #0084ff;
+        }
+ .header{
+         padding: 16px 78px;
+        background-color: #fff;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        box-shadow: 0px 4px 4px #ccc;
+     }
+     
+ .header-logoleft{
+        display: flex;
+        
+     }
+ .mainhead p
+     {
+        width:130px;
+        font-size:32px;
+        color: #0084ff;
+        font-weight: 900;
+        letter-spacing: -2.7px;
+        cursor: pointer;
+     }
+ .mainhead span{
+        cursor: pointer;
+        margin: 0;
+        font-weight:500px;
+       letter-spacing: .9px;
+        font-style: italic;
+        padding: 4px;
+        font-size: 16px;
+        border-radius: 2px;
+        line-height:0.2;
+        font-stretch:normal;
+    }
+.dropdown p{
+       
+        padding:12px;
+    }
+#explore{
+        margin-left: 10px;
+    }
+.icon{
+        padding-top: 0;
+        padding: 8px;
+        margin-left: 0;
+    }
+.dropdown {
+       display: flex;
+       flex-direction: row;
+       align-items: baseline;
+       justify-content:baseline;
+       width: 80%;
+       margin-left:25px;
+    }
+.headings h1{
+        margin: 0;
+        color: #000;
+        font-weight: 600;
+        font-size: 36px;
+        line-height: 1.94;
+        letter-spacing:-.9px;
+        margin-left: 160px;
+    }
+
+.headings p{
+        margin-bottom:20px;
+        font-size: 16px;
+        padding-top: 30px;
+
+     }
+.filter{
+        display: flex;
+        flex-direction: row;
+        font-size: 14px;
+        font-weight:600;
+        margin-left:160px;
+        padding-bottom:20px;
+        align-items: center;
+        justify-content: first baseline;
+        max-width: 300px;
+        flex-wrap: wrap;
+     }
+.catagories{
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        max-width: 900px;
+        height: 70px;
+        align-items: flex-start;
+        margin-left: 160px;
+        justify-content:stretch;
+        width: 0 auto;
+        padding-bottom: 50px;
+     }
+.catagore1{
+        padding: 6px 14px;
+        font-size:.75em;
+        
+        color: #0084ff;
+        border-radius: 15px;
+        border: 1px solid #0084ff;
+        margin: 5px;
+        cursor: pointer;       
+     }
+.catagore1:hover{
+        color: #fff;
+        background-color: #0084ff;
+     }
+.container {
+  display: flex;
+  max-width: 1200px;
+  flex-wrap: wrap;
+  margin: 0 auto;
+  justify-content: center;
+  padding-top: 30px;
+}
+#item{
+  margin-bottom: 20px;
+  font-size: 16px;
+  padding-top: 16px;
+}
+.Blogcard {
+  width: 100%;
+  height: 100%;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  margin: 10px 10px;
+  overflow: hidden;
+  background-color: white;
+  max-width: 330px;
+  min-width: 200px;
+  padding-bottom: 10px;
+}
+.Blogcard img {
+  height: 176px;
+  width: 100%;
+  border: 5px;
+}
+.Blogcard h3 {
+  padding-top: 4px;
+  margin: 4px auto;
+  font-size: 18px;
+  font-weight: 600;
+  text-align: start;
+  line-height: 1.4;
+  width: 90%;
+  
+}
+.card-Details {
+  margin: 0px 15px;
+  font-size: 12px;
+  margin-top: 8px;
+}
+#edu {
+  color: #0096ff;
+  font-size: 14px;
+  font-weight: 500;
+  font-style: italic;
+  line-height: 2;
+  text-align: start;
+}
+#date{
+    color: rgba(0,0,0,0.7);
+    font-size: 14px;
+    font-weight: 300;
+    font-style: normal;
+    margin-top: 4.8px;
+}
+.Bloginfo{
+    padding-top: 4px;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 1.43;
+    margin: auto;
+    width: 90%;
+    padding-bottom: 15px;
+  }
+  .footer{
+    background-color:#172146;
+    padding: 80px 16%;
+    margin-top: 10px;
+  }
+ </style>
+</head>
+   <body>
+      <header>
+        <div class="baseline">
+            
+            <p style="color: #fff; text-align: center;">Now get exciting rewards on learnings.</p>
+        </div>
+        
+        <div class="header">
+           <div class="header-logoleft">   
+            <div class="mainhead">
+                
+             <p>EDYODA</p>
+          <span><b>Stories</b></span>
+         </div>
+         <div class="dropdown">
+            <p>Explore Categories <i class="fa-sharp fa-solid fa-chevron-down"></i></p>
+            
+                
+         </div>
+         </div>
+         </div>
+ </header>
+<main>
+    
+        <div class="content"> 
+            <div class="headings">     
+          <h1>Trending Post</h1>
+        <span class="filter">
+            <i class="fa-solid fa-filter"></i> Filter by Category
+        </span>
+    </div> 
+    <div class="catagories">
+        <div class="catagore1">All</div>
+        <div class="catagore1">Artifical Intelligence</div>
+        <div class="catagore1">Cloud Computing</div>
+        <div class="catagore1">DevOps</div>
+        <div class="catagore1">Programming Language</div>
+        <div class="catagore1">Mobile Application Development</div>
+        <div class="catagore1">Technology And Tools</div>
+        <div class="catagore1">Get a Job in Tech Company</div>
+        <div class="catagore1">Others</div>
+</div>
+<section class="container">
+    
+    <div class="Blogcard">
+      <img
+        alt="card-1"
+        src="https://edyoda.s3.amazonaws.com/media/blog-images/learn_machine_learning_courses_online.png"
+      />
+      <h3>Introduction to A machine Learning Online Course</h3>
+      <div class="card-Details">
+        <span id="edu"><b>EdYoda</b></span>
+        <span> | 23 Aug 2022</span>
+      </div>
+       <div class="Bloginfo">
+        We have had an insight into Artificial Intelligence.
+        Well, one of its subfields is machine learning and
+        observed that over 90% of global enterprisesare. 
+        </div>
+    </div>
+     <div class="Blogcard">
+        <img
+          alt="card-1"
+          src="https://edyoda.s3.amazonaws.com/media/blog-images/4.png"
+        />
+        <h3>Impact of cloud computing in various Industries</h3>
+        <div class="card-Details">
+          <span id="edu"><b>Edyoda</b></span>
+          <span> | 24 Aug 2022</span>
+        </div>
+        <div class="Bloginfo">
+        Cloud computing has been rapidly gaining pace in 
+        the world of information technology.It has been
+        observed that over 90% of global enterprisesare 
+       </div>
+      </div>
+    <div class="Blogcard">
+        <img
+          alt="card-1"
+          src="https://edyoda.s3.amazonaws.com/media/blog-images/5_9jUbbUb.png"
+        />
+        <h3>Breaking the Myths around Cybersecurity</h3>
+        <div class="card-Details">
+          <span id="edu"><b>Edyoda</b></span>
+          <span> |03 Aug 2022</span>
+        </div>
+             <div class="Bloginfo">
+               The term Income Share Agreement been around 
+               for a long time since 1955 to be precise.
+               So, what is this Income Share Agreement? 
+            </div>
+          </div>
+ <div class="Blogcard">
+            <img
+              alt="card-1"
+              src="https://edyoda.s3.amazonaws.com/media/blog-images/a-primer-on-python-programming-tutorial-for-beginners_6Sr2kHR.png"
+            />
+            <h3>A Primer on Python Programming Tutorial for beginners</h3>
+            <div class="card-Details">
+              <span id="edu"><b>EdYoda</b></span>
+              <span> | 23 Aug 2022</span>
+            </div>
+             <div class="Bloginfo">
+              We have had an insight into Artificial Intelligence.
+              Well, one of its subfields is machine learning and
+              observed that over 90% of global enterprisesare. 
+              </div>
+          </div>
+          <div class="Blogcard">
+            <img
+              alt="card-1"
+              src="https://edyoda.s3.amazonaws.com/media/blog-images/3_Qbv1T8k.png"
+            />
+            <h3>Challenges of Machine Learning in Big Data Analytics
+            </h3>
+            <div class="card-Details">
+              <span id="edu"><b>EdYoda</b></span>
+              <span> | 23 Aug 2022</span>
+            </div>
+             <div class="Bloginfo">
+              We have had an insight into Artificial Intelligence.
+              Well, one of its subfields is machine learning and
+              observed that over 90% of global enterprisesare. 
+              </div>
+          </div>
+          <div class="Blogcard">
+            <img
+              alt="card-1"
+              src="https://edyoda.s3.amazonaws.com/media/blog-images/practical_machine_learning_1_uTlUxq8.png"
+            />
+            <h3>Practical Machine Learning with Python and Keras</h3>
+            <div class="card-Details">
+              <span id="edu"><b>EdYoda</b></span>
+              <span> | 23 Aug 2022</span>
+            </div>
+             <div class="Bloginfo">
+              We have had an insight into Artificial Intelligence.
+              Well, one of its subfields is machine learning and
+              observed that over 90% of global enterprisesare. 
+              </div>
+          </div>
+         </div>
+        </div>
+     </div>
+</main>
+<footer>
+    <div class="footer">   
+ </div>
+</footer>
+    </body>
+</html>

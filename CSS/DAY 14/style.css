@@ -1,0 +1,35 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.main-body{
+    display: flex;
+}
+.side-bar{
+    border-right: 2px solid #ccc;
+    height: 200vh;
+    width: 30%;
+    max-width: 250px;
+}
+.logo{
+    height: 60px;
+    width: 60px;
+    padding: 18px;
+
+}
+.logo img{
+    height: 100%;
+    width: 100%;
+}
+.side-nav-bar{
+    margin: 50% 0px 40px 0px;
+}
+.side-nav-bar > li{
+    display: flex;
+    background-color: aqua;
+    margin-bottom: 10px;
+    border-radius: 20px;
+    cursor:pointer;
+    align-items: center;
+}

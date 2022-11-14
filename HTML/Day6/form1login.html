@@ -1,0 +1,89 @@
+<html>
+    <head>
+        <title>Login Form</title>
+        <style>
+        form{
+            background-color: aqua;
+            max-width: 600px;
+            margin: 60px auto;
+            border-radius: 8px;
+            
+        }
+        .main-div{
+            padding: 40px;
+            margin: 40px;
+        }
+        
+        #r1{
+          padding-right: 5px;
+        }
+        #r2{
+            padding-left: 5px;
+        }
+        </style>
+    </head>
+    <body>
+        <form>
+    <div class="main-div">
+    <div class="label1">
+            <div>
+                <table>
+                    <td id="r1">
+                        <tr>
+                <label>Your Name</label>
+                <input type="text" name="text" placeholder=" Enter FirstName">
+            </tr>
+            <tr id="r2">
+                <label></label>
+                <input type="text" name="text" placeholder="Enter SecondName"> 
+            </tr>
+              </td>
+            </table>
+            </div>
+            <div>
+                <label>Your Email</label>
+                <input type="email" name="email" placeholder="eg:aaaa@email.com">
+            </div>
+    </div>
+            <div>
+                <table>
+                    <td>
+                        <tr>
+                <label>Phone</label>
+                <input type="number" name="num" placeholder="99523154">
+            </tr>
+            <tr>
+                <label></label>
+                <input type="number" name="num" placeholder="520633"> 
+            </tr>
+            <tr>
+                <label></label>
+                <input type="number" name="num" placeholder="5346004"> 
+            </tr>
+              </td>
+            </table>
+            <div>
+                <label for="subj">Message Subject*</label>
+                <select id="subj" name="subj">
+                    <option value="CSS">CSS</option>
+                    <option value="HTML">HTML</option>
+                    <option value="BOOT">BOOT</option>
+                    <option value="JS">JS</option>
+                    <option value="NODE">NODE</option>
+                    
+                </select>
+                
+            </div>
+            <div>
+                <label>Message*</label>
+                <textarea rows="5"></textarea>
+            </div>
+            <div>
+                <label>Verification</label>
+                <input type="checkbox" name="veri">
+            
+             </div>
+            </div>
+        </form>
+    </body>
+</html>
