@@ -6,5 +6,44 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
   </head>
-  <body></body>
+  <body>
+    <h1 onmouseover="mouseOver()" onmouseout="mouseOut()" id="mousecheck">
+      Mouse over functions
+    </h1>
+    <form onsubmit="chksubmit()" id="fosub">
+      <div>
+        Name:<input
+          type="text"
+          onkeydown="keyDown(event)"
+          onkeyup="keyUp(event)"
+          id="keycheck"
+        />
+        <div>
+          Place:
+          <input
+            type="text"
+            onfocus="focusckk()"
+            onblur="blurchitk()"
+            id="focuscheck"
+          />
+        </div>
+      </div>
+      <div>
+        Gender:
+        <select onchange="selectvalues()" id="select">
+          <option value="male">Male</option>
+          <option value="female">Female</option>
+        </select>
+      </div>
+      <div>
+        <button onclick="checkButtonclick()">Button</button>
+      </div>
+      <div>
+        <button onclick="btnclick()" id="clickme">click me</button>
+        <button id="chklistne">listner</button>
+      </div>
+      <div><input type="submit" value="submit" /></div>
+    </form>
+    <script src="./script.js"></script>
+  </body>
 </html>

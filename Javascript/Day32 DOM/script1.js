@@ -35,14 +35,14 @@ function selectElementBySelector(selector){
     const element = document.querySelector(selector);
     console.log(element);
 }
-function selectElementBySelector(selector){
-    const elements = document.querySelectorAll(selector);
-    console.log(elements);
-}
-function selectElementBySelector(selector){
-    const element = document.querySelector(selector);
-    console.log(element);
-}
+// function selectElementBySelector(selector){
+//     const elements = document.querySelectorAll(selector);
+//     console.log(elements);
+// }
+// function selectElementBySelector(selector){
+//     const element = document.querySelector(selector);
+//     console.log(element);
+// }
 function createElement(){
     const element = document.createElement("h3");
     const txt = document.createTextNode("Athira Saravananan");
