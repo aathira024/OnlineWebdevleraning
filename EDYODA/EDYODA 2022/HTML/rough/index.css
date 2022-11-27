@@ -1,0 +1,42 @@
+body{
+    margin: 0px;
+    background-color: rgb(238, 232, 232);
+}
+
+#header{
+    background-color:grey;
+    width: 100%;
+    height: 50px;
+    align-items: center;
+    display: flex;
+     
+}
+#images{
+    display:grid;
+    margin: 0;
+}
+.margin-bottom-70{
+    margin-bottom: 70px;
+}
+.center-text-no-margin{
+    text-align: center;
+    /* margin: 0;
+    padding-bottom: 5px; */
+}
+li a{
+    text-decoration: none;
+    color: black;
+    
+}
+#header li a{
+    color: white;
+    padding: 20px;
+    
+}
+#header li{
+    display: inline;
+    
+}
+#header li a:hover {
+    background-color: #111;
+  }

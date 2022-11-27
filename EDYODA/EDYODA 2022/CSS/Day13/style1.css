@@ -1,0 +1,33 @@
+.box{
+    border: 2px solid black;
+    height: 250px;
+    margin: 20px;
+    background-image: linear-gradient(to top,blue,white,red);
+}
+.box2{
+    border: 2px solid black;
+    height: 250px;
+    margin: 20px;
+    background-image: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,121,120,1) 35%, rgba(0,212,255,1) 100%);
+}
+.box3{
+    border: 2px solid black;
+    height: 250px;
+    margin: 20px;
+    background-image:radial-gradient(closest-side at 60% 55%,red,green,blue)
+}
+p{
+    background-color: antiquewhite;
+    white-space:nowrap;
+    text-overflow: clip;
+    overflow: hidden;
+    margin: 20px;
+    height: 150px;
+}
+.box4{
+    height: 0;
+    width: 0;
+    border-bottom: 20px solid red;
+    border-left: 20px solid transparent;
+    border-right: 20px solid transparent;
+}

@@ -1,0 +1,103 @@
+*{
+    margin: 0;
+}
+.fixed-container{
+    background-color: blueviolet;
+    height: 100px;
+    color: white;
+    font-weight: 600;
+    font-size: 30px;
+    position: fixed;
+    left: 30px;
+    bottom: 30px;
+}
+.box{
+    border: 1px solid brown;
+    height: 150px;
+    margin: 20px;
+}
+.chatBox{
+    background-color: blue;
+    padding: 4px;
+    border-radius: 50%;
+    height: 30px;
+    width: 30px;
+    display: flex; 
+    align-items: center;
+    justify-content: center;
+    margin: 20px;
+    font-size: 20px;
+    color: white;
+    position: fixed;
+    right: 0;
+    bottom: 0;
+}
+.stickey{
+    top: 50px;
+    background-color: aquamarine;
+    position: sticky;
+}
+.main-container{
+    height: 400px;
+    background-color: chartreuse;
+    overflow: scroll;
+}
+.slider {
+    margin: 20px;
+    background-color: coral;
+    padding: 20px;
+    display: flex;
+    overflow-x:scroll;
+}
+.sliderbox {
+    height: 150px;
+    width: 150px;
+    margin: 10px;
+    
+}
+
+.sliderbox img {
+    height: 150px;
+    width: 150px;
+}
+.card{
+    height: 250px;
+  width: 250px;
+  border-radius: 4px;
+  background-color: saddlebrown;
+  padding: 2px;
+  overflow: scroll;
+  margin: 20px;
+}
+.card img {
+    height: 100%;
+    width: 100%;
+    border-radius: 4px;
+  }
+  .wrapper-a{
+    height: 500px;
+    background-color: blanchedalmond;
+    background-image: url(https://t4.ftcdn.net/jpg/04/27/16/05/360_F_427160582_w0D5Z01pVaz32w7JzzNWTtE2n1VvvKmi.jpg);
+    background-size:cover;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    opacity: 0.5;
+  }
+  .wrapper-b{
+    height: 500px;
+    background-color: blanchedalmond;
+    background-image: url(https://wallpapers.com/images/featured/hd-girls-gljtumgxbcqpa2e3.jpg);
+    background-size:cover;
+    background-attachment: fixed;
+
+  }
+  .wrapper-c{
+    height: 500px;
+    background-color: rgb(244, 151, 10);
+    background-image: url(https://wallpapers.com/images/hd/hd-flower-garden-path-ud3ysw6pkk1g6qsz.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    opacity: 0.3;
+
+  }

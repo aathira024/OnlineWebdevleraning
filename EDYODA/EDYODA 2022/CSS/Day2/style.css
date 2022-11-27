@@ -1,0 +1,112 @@
+h1{
+    color: blueviolet;
+    text-decoration: underline;
+    text-transform: capitalize;
+    letter-spacing: 4px;
+}
+h3{
+    color: crimson;
+    text-align: center;
+    font-style: italic;
+    font-weight: 500;
+    text-decoration: underline;
+    font-size: 30px;
+    text-transform:uppercase;
+    letter-spacing: 2px;
+    word-spacing: 20px;
+   
+}
+button{
+    padding: 15px;
+    border: none;
+    border-radius: 5px;
+    background-color: blue;
+    color: bisque;
+    cursor: crosshair;
+}
+.box{
+    padding: 8px;
+    margin: 8px;
+    background-color: cadetblue;
+    color: white;
+    width: 200px;
+    height: 200px;
+    display:inline-block;
+    border: 2px solid yellow;
+    box-shadow: 5px 5px 8px #ccc;
+    text-align: center;
+    
+}
+.a-blk{
+    display:none;
+}
+.visible{
+    visibility: hidden;
+}
+.circle{
+    margin: 0;
+    padding: 0;
+    width: 90px;
+    height: 97px;
+    border: 9px solid red;
+    border-radius: 50%;
+    display: inline-block;
+}
+.square{
+    width: 50px;
+    height: 50px;
+    background-color: brown;
+}
+.circle2{
+    width: 50px;
+    height: 50px;
+    background-color: brown;
+    border-radius: 50%;
+}
+.oval{
+    width: 100px;
+    height: 50px;
+    background-color: brown;
+    border-radius: 50%;
+}
+.trapezoid{
+    border-bottom: 50px solid red;
+    border-left: 25px solid transparent;
+    border-right: 25px solid transparent;
+    height: 0;
+    width: 0;
+}
+.container{
+    height: 250px;
+    border: 2px solid black;
+    margin: 50px;
+    position: relative;
+}
+.innerbox{
+    background-color: chocolate;
+    height: 50px;
+    width: 50px;
+    position: relative;
+    top:20px;
+    right: 20px;
+    left: 20px;
+    bottom: 20px;
+}
+.relative{
+    position: relative;
+    top:20px;
+    right: 20px;
+    left: 20px;
+    bottom: 20px;
+    display: inline-flexbox;
+}
+.absolute{
+    background-color: rgb(10, 246, 124);
+    height: 50px;
+    width: 50px;
+    position: absolute;
+    top:50%;
+    left: 50%;
+    bottom: 50%;
+    right: 50%;
+}

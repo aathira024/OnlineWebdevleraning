@@ -1,0 +1,95 @@
+<html>
+    <head>
+        <title>Bookmarking</title>
+        <style>
+            html{
+                scroll-behavior: smooth;
+            }
+          *{
+            margin: 0;
+            padding: 0;
+          }
+    .header{
+        background-color: black;
+        padding:10px 15px;
+        
+    }
+    .nav-items:hover{
+     background-color: cadetblue;
+    }
+    .nav-items{
+        color: rgb(255, 255, 255);
+        margin: 0px 8px;
+        padding: 5px;
+    }
+    .cards{
+        
+        border: 3px solid #ccc;
+        width: 250px;
+        /* <!---- margin top and bottam 20px left-right auto---> */
+        margin: 20px auto;
+        border-radius: 4px;
+        box-shadow: 3px 3px 4px grey;
+        
+    }
+    .card-images{
+        height: 250px;
+        width: 250px;
+        
+    }
+    .card-heading{
+        
+        color: crimson;
+        margin: 20px;
+        text-align: center;
+        text-shadow: 2px 2px 3px black;
+    }
+    .img{
+        height: 100%;
+        width: 100%;
+        border-radius: 5px;
+    }   
+    a{
+        text-decoration: none;
+    }
+        
+        </style>
+    </head>
+    <body>
+        <div class="header">
+           <a href="#C1"><span class="nav-items">Card 1</span></a>
+           <a href="#C2"><span class="nav-items">Card 2</span></a>
+           <a href="#C3"><span class="nav-items">Card 3</span></a>
+           <a href="#C4"><span class="nav-items">Card 4</span></a>
+            
+
+        </div>
+        <div class="main-cotainer">
+        <div class="cards" id="C1">
+            <div class="card-images">
+            <img class="img"src="./pizza2.jpg" style="height:100%;width:100%">
+        </div>
+           <p class="card-heading">I am card1</p> 
+            
+    </div>
+    <div class="cards" id="C2">
+            <div class="card-images">
+            <img class="img"src="./pizza2.jpg" style="height:100%;width:100%">
+        </div>
+           <p class="card-heading">I am card2</p> 
+    </div>
+    <div class="cards" id="C3">
+        <div class="card-images">
+        <img class="img"src="./pizza2.jpg" style="height:100%;width:100%">
+    </div>
+       <p class="card-heading">I am card3</p> 
+    </div>
+    <div class="cards" id="C4">
+        <div class="card-images">
+        <img class="img"src="./pizza2.jpg" style="height:100%;width:100%">
+    </div>
+       <p class="card-heading">I am card4</p> 
+    </div>
+    </div>
+    </body>
+</html>
